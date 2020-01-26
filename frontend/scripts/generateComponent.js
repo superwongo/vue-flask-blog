@@ -1,5 +1,5 @@
 // 引入相关参数、函数
-const {fs, resolve, log, successLog, errorLog, generateFile, dotExistDirectoryCreate} = require('./utils')
+const { fs, resolve, log, successLog, errorLog, generateFile, dotExistDirectoryCreate } = require('./utils')
 const { vueTemplate, entryTemplate } = require('./template')
 
 log('请输入要生成的组件名称、如需生成全局组件，请加 global/ 前缀')

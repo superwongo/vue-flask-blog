@@ -14,7 +14,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        data: `@import '~styles/var.scss';
+        prependData: `@import '~styles/var.scss';
         @import '~styles/mixin.scss';`
       }
     }
@@ -100,19 +100,20 @@ module.exports = {
       const cdn = {
         css: [
           // element-ui css
-          '//unpkg.com/element-ui/lib/theme-chalk/index.css'
+          '//cdn.bootcss.com/element-ui/2.12.0/theme-chalk/index.css',
+          '//cdn.bootcss.com/font-awesome/5.11.2/css/fontawesome.min.css'
         ],
         js: [
           // vue
-          '//cdn.staticfile.org/vue/2.5.22/vue.min.js',
+          '//cdn.bootcss.com/vue/2.6.10/vue.min.js',
           // vue-router
-          '//cdn.staticfile.org/vue-router/3.0.2/vue-router.min.js',
+          '//cdn.bootcss.com/vue-router/3.1.3/vue-router.min.js',
           // vuex
-          '//cdn.staticfile.org/vuex/3.1.0/vuex.min.js',
+          '//cdn.bootcss.com/vuex/3.1.1/vuex.min.js',
           // axios
-          '//cdn.staticfile.org/axios/0.19.0-beta.1/axios.min.js',
+          '//cdn.bootcss.com/axios/0.19.0-beta.1/axios.min.js',
           // element-ui js
-          '//unpkg.com/element-ui/lib/index.js'
+          '//cdn.bootcss.com/element-ui/2.12.0/index.js'
         ]
       }
       config.plugin('html')
