@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import vfHeader from "./views/vf-header"
-import vfContent from "./views/vf-content";
+import vfHeader from "@/views/vf-header"
+import vfContent from "@/views/vf-content"
 
 export default {
   name: 'app',
