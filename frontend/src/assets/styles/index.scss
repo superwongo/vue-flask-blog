@@ -2,6 +2,7 @@ body {
   background: rgba(0,0,0,0);
   color: #4c4948;
   font-size: 14px;
+  line-height: 2;
   font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -28,7 +29,32 @@ body {
   .blog-header > .toggle-menu {
     display: block;
   }
+  .el-container > .el-aside {
+    display: none;
+  }
+  .content-page {
+    padding: 0 !important;
+  }
+  .el-container > .el-main {
+    padding: 0 !important;
+
+    .content-card:nth-child(odd) {
+      flex-direction: column;
+    }
+    .content-card:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+    .content-card {
+      .content-card-image {
+        width: 100% !important;
+      }
+      .content-card-info {
+        width: 90% !important;
+      }
+    }
+  }
 }
+
 @media screen and (min-width: 768px) {
   .blog-header > .pull-right {
     display: block;
@@ -36,4 +62,8 @@ body {
   .blog-header > .toggle-menu {
     display: none;
   }
+}
+
+.el-card:hover {
+  box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15) !important;
 }
