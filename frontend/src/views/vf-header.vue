@@ -6,20 +6,20 @@
       </span>
       <span class="toggle-menu pull-right" @click="toggleMenu">
         <router-link class="menus-item" to="#">
-          <i class="fa fa-bars fa-fw" aria-hidden="true"></i></router-link>
+          <i class="fa fa-bars fa-fw" aria-hidden="true"/></router-link>
       </span>
       <span class="pull-right">
         <el-menu class="menus-items" mode="horizontal" router background-color="rgba(0,0,0,0)">
           <el-menu-item class="menus-item menu-bottom--animated" index="/">
-            <i class="fa-fw fa fa-home"></i>首页</el-menu-item>
+            <i class="fa-fw fa fa-home"/>首页</el-menu-item>
           <el-menu-item class="menus-item menu-bottom--animated" index="/archives/">
-            <i class="fa-fw fa fa-archive"></i>归档</el-menu-item>
+            <i class="fa-fw fa fa-archive"/>归档</el-menu-item>
           <el-menu-item class="menus-item menu-bottom--animated" index="/tags/">
-            <i class="fa-fw fa fa-tags"></i>标签</el-menu-item>
+            <i class="fa-fw fa fa-tags"/>标签</el-menu-item>
           <el-menu-item class="menus-item menu-bottom--animated" index="/categories/">
-            <i class="fa-fw fa fa-folder-open"></i>分类</el-menu-item>
+            <i class="fa-fw fa fa-folder-open"/>分类</el-menu-item>
           <el-menu-item class="menus-item menu-bottom--animated" index="/about/">
-            <i class="fa-fw fa fa-heart"></i>关于</el-menu-item>
+            <i class="fa-fw fa fa-heart"/>关于</el-menu-item>
         </el-menu>
       </span>
     </div>
@@ -28,19 +28,19 @@
       <hr class="hr--animated">
       <el-menu class="mobile-menus-items" router background-color="rgba(0,0,0,0)">
         <el-menu-item class="mobile-menus-item" index="/">
-          <i class="fa-fw fa fa-home"></i><span slot="title">首页</span>
+          <i class="fa-fw fa fa-home"/><span slot="title">首页</span>
         </el-menu-item>
         <el-menu-item class="mobile-menus-item" index="/archives/">
-          <i class="fa-fw fa fa-archive"></i><span slot="title">归档</span>
+          <i class="fa-fw fa fa-archive"/><span slot="title">归档</span>
         </el-menu-item>
         <el-menu-item class="mobile-menus-item" index="/tags/">
-          <i class="fa-fw fa fa-tags"></i><span slot="title">标签</span>
+          <i class="fa-fw fa fa-tags"/><span slot="title">标签</span>
         </el-menu-item>
         <el-menu-item class="mobile-menus-item" index="/categories/">
-          <i class="fa-fw fa fa-folder-open"></i><span slot="title">分类</span>
+          <i class="fa-fw fa fa-folder-open"/><span slot="title">分类</span>
         </el-menu-item>
         <el-menu-item class="mobile-menus-item" index="/about/">
-          <i class="fa-fw fa fa-heart"></i><span slot="title">关于</span>
+          <i class="fa-fw fa fa-heart"/><span slot="title">关于</span>
         </el-menu-item>
       </el-menu>
     </el-drawer>
