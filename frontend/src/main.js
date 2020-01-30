@@ -9,6 +9,7 @@ Vue.use(ElementUI)
 import 'normalize.css'
 import 'font-awesome/css/font-awesome.css'
 import '~styles/index.scss'
+import '~styles/animation.scss'
 
 Vue.config.productionTip = false
 
